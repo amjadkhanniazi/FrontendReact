@@ -132,7 +132,7 @@ export default function App() {
     return (
       <div className={`min-h-screen ${isDarkMode ? 'dark' : ''}`}>
         <div className="container mx-auto p-4 dark:bg-gray-800 min-h-screen">
-          <h1 className="text-4xl font-bold mb-8 text-center dark:text-white">Cool Task Manager</h1>
+          <h1 className="text-4xl font-bold mb-8 text-center dark:text-white">My To DOs</h1>
           {isSignUp ? (
             <SignUpForm onSignUp={handleSignUp} onSwitchToLogin={() => setIsSignUp(false)} />
           ) : (
